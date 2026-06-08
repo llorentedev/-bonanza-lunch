@@ -1,0 +1,54 @@
+<nav class="fixed top-0 left-0 right-0 z-50 bg-charcoal/95 backdrop-blur-sm border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-18 lg:h-20">
+      <a href="#" class="text-2xl lg:text-3xl font-heading font-bold text-wood tracking-wide">
+        Bonanza Lunch
+      </a>
+      <ul class="hidden md:flex items-center gap-8">
+        <li><a href="#inicio" class="text-white/80 hover:text-wood transition-colors duration-300 text-sm font-medium tracking-wide uppercase">Inicio</a></li>
+        <li><a href="#nosotros" class="text-white/80 hover:text-wood transition-colors duration-300 text-sm font-medium tracking-wide uppercase">Nosotros</a></li>
+        <li><a href="#menu" class="text-white/80 hover:text-wood transition-colors duration-300 text-sm font-medium tracking-wide uppercase">Menú</a></li>
+        <li><a href="#galeria" class="text-white/80 hover:text-wood transition-colors duration-300 text-sm font-medium tracking-wide uppercase">Galería</a></li>
+        <li><a href="#testimonios" class="text-white/80 hover:text-wood transition-colors duration-300 text-sm font-medium tracking-wide uppercase">Reseñas</a></li>
+        <li>
+          <a href="#contacto" class="bg-green hover:bg-green-dark text-white px-6 py-2.5 rounded-full text-sm font-medium tracking-wide transition-all duration-300 hover:shadow-lg hover:shadow-green/25">
+            Reservar
+          </a>
+        </li>
+      </ul>
+      <button id="menuToggle" class="md:hidden text-white p-2" aria-label="Menú">
+        <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="md:hidden hidden absolute top-full left-0 right-0 bg-charcoal/98 backdrop-blur-md border-t border-white/10">
+    <ul class="flex flex-col py-4 px-6 gap-2">
+      <li><a href="#inicio" class="block py-3 text-white/80 hover:text-wood transition-colors">Inicio</a></li>
+      <li><a href="#nosotros" class="block py-3 text-white/80 hover:text-wood transition-colors">Nosotros</a></li>
+      <li><a href="#menu" class="block py-3 text-white/80 hover:text-wood transition-colors">Menú</a></li>
+      <li><a href="#galeria" class="block py-3 text-white/80 hover:text-wood transition-colors">Galería</a></li>
+      <li><a href="#testimonios" class="block py-3 text-white/80 hover:text-wood transition-colors">Reseñas</a></li>
+      <li><a href="#contacto" class="block py-3 text-wood font-medium">Reservar</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuIcon = document.getElementById('menuIcon');
+
+  menuToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+
+  mobileMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+    });
+  });
+</script>

@@ -1,0 +1,234 @@
+<section id="menu" class="py-24 lg:py-32 bg-cream">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <span class="text-green text-sm tracking-widest uppercase font-medium">Nuestras Especialidades</span>
+      <h2 class="text-4xl lg:text-5xl font-heading font-bold text-charcoal mt-3 mb-4">
+        Descubrí nuestro <span class="text-green">menú</span>
+      </h2>
+      <p class="text-charcoal/60 max-w-2xl mx-auto">Cada plato está hecho con amor. Ingredientes frescos, recetas de la abuela y un toque único.</p>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-3 mb-12" id="menuFilters">
+      <button class="filter-btn active px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300" data-filter="todos">Todos</button>
+      <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300" data-filter="entradas">Entradas</button>
+      <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300" data-filter="principales">Principales</button>
+      <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300" data-filter="postres">Postres</button>
+      <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300" data-filter="bebidas">Bebidas</button>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8" id="menuGrid">
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="entradas">
+        <div class="aspect-[4/3] bg-gradient-to-br from-amber-100 to-amber-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-green text-white text-xs px-3 py-1 rounded-full font-medium">Entrada</div>
+          <div class="absolute bottom-3 right-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" class="opacity-60"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 002-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 00-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Bruschetta</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 120</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Tomate cherry, albahaca fresca, mozzarella de búfala y reducción de balsámico</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="entradas">
+        <div class="aspect-[4/3] bg-gradient-to-br from-orange-100 to-rose-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-green text-white text-xs px-3 py-1 rounded-full font-medium">Entrada</div>
+          <div class="absolute bottom-3 right-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" class="opacity-60"><path d="M6.5 3.5L11 8l-2.5 2.5"/><path d="M17.5 20.5L13 16l2.5-2.5"/><path d="M3 3l7.5 7.5"/><path d="M13 13l7.5 7.5"/></svg>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Carpaccio</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 150</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Res fina marinada con rúcula silvestre, lascas de parmesano y limón</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="entradas">
+        <div class="aspect-[4/3] bg-gradient-to-br from-emerald-100 to-green-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-green text-white text-xs px-3 py-1 rounded-full font-medium">Entrada</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Ensalada César</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 130</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Lechuga romana, crutones, parmesano y nuestra vinagreta de la casa</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="principales">
+        <div class="aspect-[4/3] bg-gradient-to-br from-stone-200 to-amber-300 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-charcoal text-white text-xs px-3 py-1 rounded-full font-medium">Principal</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Filete Mignon</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 320</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Corte angus con salsa de vino tinto, puré de trufa y verduras asadas</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="principales">
+        <div class="aspect-[4/3] bg-gradient-to-br from-rose-100 to-pink-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-charcoal text-white text-xs px-3 py-1 rounded-full font-medium">Principal</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Salmón Glaseado</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 280</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Salmón noruego glaseado con miel y mostaza, espárragos grillados</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="principales">
+        <div class="aspect-[4/3] bg-gradient-to-br from-amber-200 to-yellow-300 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-charcoal text-white text-xs px-3 py-1 rounded-full font-medium">Principal</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Risotto</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 260</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Arroz carnaroli con setas porcini, trufa negra y parmesano añejo</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="principales">
+        <div class="aspect-[4/3] bg-gradient-to-br from-blue-100 to-indigo-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-charcoal text-white text-xs px-3 py-1 rounded-full font-medium">Principal</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Pasta del Chef</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 240</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Fettuccine artesanal con langostinos, ajo, limón y toque picante</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="postres">
+        <div class="aspect-[4/3] bg-gradient-to-br from-amber-100 to-yellow-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-wood text-white text-xs px-3 py-1 rounded-full font-medium">Postre</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Tiramisú</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 100</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Clásico italiano con mascarpone, café expreso y cacao amargo</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="postres">
+        <div class="aspect-[4/3] bg-gradient-to-br from-orange-100 to-red-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-wood text-white text-xs px-3 py-1 rounded-full font-medium">Postre</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Crème Brûlée</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 110</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Vainilla bourbon con capa crujiente de caramelo y frutos rojos</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="bebidas">
+        <div class="aspect-[4/3] bg-gradient-to-br from-purple-100 to-violet-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-beige text-charcoal text-xs px-3 py-1 rounded-full font-medium">Bebida</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Vino de la Casa</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 90</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Selección semanal de vinos tintos y blancos de bodegas locales</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="bebidas">
+        <div class="aspect-[4/3] bg-gradient-to-br from-cyan-100 to-blue-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-beige text-charcoal text-xs px-3 py-1 rounded-full font-medium">Bebida</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Coctel de Autor</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 140</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Ginebra artesanal, flor de saúco, pepino, lima y tónica premium</p>
+        </div>
+      </div>
+
+      <div class="menu-item group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1" data-category="bebidas">
+        <div class="aspect-[4/3] bg-gradient-to-br from-green-100 to-teal-200 relative overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+          <div class="absolute top-3 left-3 bg-beige text-charcoal text-xs px-3 py-1 rounded-full font-medium">Bebida</div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="text-xl font-heading font-bold text-charcoal">Limonada Natural</h3>
+            <span class="text-green font-heading font-bold text-lg">$MNX 60</span>
+          </div>
+          <p class="text-charcoal/50 text-sm leading-relaxed">Limón fresco, hierbabuena, jengibre y un toque de miel de abeja</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .filter-btn {
+    background: transparent;
+    color: #2B2625;
+    border: 1.5px solid #C6A98A;
+  }
+  .filter-btn:hover {
+    background: #C6A98A;
+    color: #2B2625;
+  }
+  .filter-btn.active {
+    background: #4A6B42;
+    color: white;
+    border-color: #4A6B42;
+  }
+</style>
+
+<script>
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const menuItems = document.querySelectorAll('.menu-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      menuItems.forEach(item => {
+        if (filter === 'todos' || item.dataset.category === filter) {
+          item.style.display = 'block';
+          item.style.opacity = '0';
+          setTimeout(() => item.style.opacity = '1', 10);
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>

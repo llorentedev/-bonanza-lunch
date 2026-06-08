@@ -1,0 +1,13 @@
+[vite] connected.
+[2m01:17:54[22m [34m[types][39m Generated [2m1ms[22m
+[2m01:17:54[22m [34m[vite][39m Re-optimizing dependencies because vite config has changed
+[42m[1m astro [22m[49m [32mv6.4.4[39m [2mready in[22m 1154 [2mms[22m
+[2m┃[22m Local    [36mhttp://localhost:4321/[39m
+[2m┃[22m Network  [36mhttp://192.168.1.8:4321/[39m
+[2m01:17:54[22m [32mwatching for file changes...[39m
+[2m01:17:55[22m [34m[200][39m / [2m22ms[22m
+[2m01:18:37[22m [34m[watch][39m /src/styles/global.css
+[2m01:18:38[22m [34m[200][39m / [2m15ms[22m
+[2m01:18:42[22m [34m[watch][39m /src/styles/global.css
+[2m01:18:42[22m [34m[200][39m / [2m19ms[22m
+[2m01:18:44[22m [34m[200][39m / [2m3ms[22m
